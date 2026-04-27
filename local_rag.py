@@ -63,15 +63,26 @@ META_JSON = DIR / "companion_meta.json"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Remote LM Studio defaults (overridable via .env).
-LMSTUDIO_BASE_URL = os.environ.get("LMSTUDIO_BASE_URL", "http://127.0.0.1:1234")
+LMSTUDIO_BASE_URL = os.environ.get("LMSTUDIO_BASE_URL", "").strip() or "http://127.0.0.1:1234"
 LMSTUDIO_MODEL = os.environ.get("LMSTUDIO_MODEL", "openai/gpt-oss-20b")
 LMSTUDIO_API_KEY = os.environ.get("LMSTUDIO_API_KEY", "").strip()
 LMSTUDIO_TIMEOUT_SECONDS = 600
 
+
 RAG_SYSTEM_PROMPT = (
-    "You are a companion-planting assistant. Answer the user's question using only "
-    "the information in the provided plant notes. If the notes do not contain enough "
-    "information, say so plainly. Be concise and practical."
+    #"You are a companion-planting assistant. Answer the user's question using only "
+    #"the information in the provided plant notes. If the notes do not contain enough "
+    #"information, say so plainly. Be concise and practical."
+
+      "You are an expert companion-planting assistant with deep "
+    "knowledge of vegetable gardening and pollinator support. "
+    "Answer the user's question using only the information in "
+    "the provided plant notes. Structure your answer clearly with: "
+    "1) Good companions and why, "
+    "2) Plants to avoid and why, "
+    "3) Any pollinator benefits. "
+    "If the notes do not contain enough information, say so plainly. "
+    "Be concise and practical."
 )
 
 
