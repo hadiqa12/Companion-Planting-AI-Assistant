@@ -35,7 +35,7 @@ Copy-Item .env.example .env
 Open `.env` and (optionally) point `LMSTUDIO_BASE_URL` at your remote LM Studio server, e.g.:
 
 ```
-LMSTUDIO_BASE_URL=http://192.168.0.107:1234
+LMSTUDIO_BASE_URL=
 LMSTUDIO_MODEL=openai/gpt-oss-20b
 LMSTUDIO_API_KEY=
 ```
