@@ -63,7 +63,7 @@ META_JSON = DIR / "companion_meta.json"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Remote LM Studio defaults (overridable via .env).
-LMSTUDIO_BASE_URL = os.environ.get("LMSTUDIO_BASE_URL", "http://____") #your url to LM studio goes here if you setup this way.
+LMSTUDIO_BASE_URL = os.environ.get("LMSTUDIO_BASE_URL", "http://127.0.0.1:1234")
 LMSTUDIO_MODEL = os.environ.get("LMSTUDIO_MODEL", "openai/gpt-oss-20b")
 LMSTUDIO_API_KEY = os.environ.get("LMSTUDIO_API_KEY", "").strip()
 LMSTUDIO_TIMEOUT_SECONDS = 600
