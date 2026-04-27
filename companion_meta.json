@@ -1,0 +1,92 @@
+[
+  {
+    "plant": "Tomato",
+    "id": "Solanum lycopersicum",
+    "chunk": "Plant: Tomato (Solanum lycopersicum). Family: Nightshade.\nCompanions: Basil, Carrots, Parsley, Marigold, Asparagus, Celery, Onions.\nAntagonists: Fennel, Broccoli, Cabbage, Corn, Potatoes, Kohlrabi.\nWhy companions help: Basil repels aphids and may improve flavor; Carrots loosen soil; Marigolds deter nematodes; Parsley attracts beneficial insects\nWhy avoid antagonists: Fennel secretes growth inhibitors; Brassicas compete for nutrients; Corn attracts same pests; Potatoes share blight disease\nGrowing: Full sun, water High, spacing 24 inches, Heavy feeder.\nAttracts: Bees."
+  },
+  {
+    "plant": "Basil",
+    "id": "Ocimum basilicum",
+    "chunk": "Plant: Basil (Ocimum basilicum). Family: Mint.\nCompanions: Tomato, Pepper, Oregano, Asparagus, Marigold.\nAntagonists: Sage, Rue, Common Thyme.\nWhy companions help: Improves tomato growth and flavor; Repels flies, mosquitoes, and aphids from neighbors\nWhy avoid antagonists: Sage and rue inhibit basil growth\nGrowing: Full sun, water Medium, spacing 12 inches, Light feeder.\nPests deterred: Aphids, Mosquitoes, Flies, Spider mites.\nAttracts: Bees, Butterflies."
+  },
+  {
+    "plant": "Carrots",
+    "id": "Daucus carota",
+    "chunk": "Plant: Carrots (Daucus carota). Family: Umbellifers.\nCompanions: Onions, Leeks, Rosemary, Sage, Lettuce, Tomatoes, Chives.\nAntagonists: Dill, Parsnips, Celery.\nWhy companions help: Onions and leeks mask carrot scent from carrot fly; Rosemary and sage deter carrot fly; Lettuce provides shade for roots\nWhy avoid antagonists: Dill cross-pollinates and may stunt growth; Parsnips compete and share diseases; Celery competes for nutrients\nGrowing: Full sun, water Medium, spacing 3 inches, Light feeder.\nAttracts: Parasitic wasps, Lacewings."
+  },
+  {
+    "plant": "Beans",
+    "id": "Phaseolus vulgaris",
+    "chunk": "Plant: Beans (Phaseolus vulgaris). Family: Legume.\nCompanions: Corn, Squash, Carrots, Cabbage, Cucumber, Cauliflower, Radishes.\nAntagonists: Onions, Garlic, Peppers, Sunflowers, Chives, Leeks.\nWhy companions help: Fixes nitrogen in soil for heavy feeders; Corn provides natural trellis for climbing varieties; Three Sisters planting with corn and squash\nWhy avoid antagonists: Alliums inhibit bean growth; Sunflowers release growth-inhibiting chemicals\nGrowing: Full sun, water Medium, spacing 6 inches, Nitrogen fixer.\nAttracts: Bees."
+  },
+  {
+    "plant": "Corn",
+    "id": "Zea mays",
+    "chunk": "Plant: Corn (Zea mays). Family: Grass.\nCompanions: Beans, Squash, Cucumber, Melons, Peas, Pumpkin, Zucchini.\nAntagonists: Tomatoes, Celery, Brassicas.\nWhy companions help: Provides natural trellis for beans and climbing plants; Benefits from nitrogen fixed by beans; Squash shades soil below\nWhy avoid antagonists: Tomatoes and corn attract corn earworm; Celery and brassicas compete for nutrients\nGrowing: Full sun, water High, spacing 12 inches, Heavy feeder."
+  },
+  {
+    "plant": "Squash",
+    "id": "Cucurbita pepo",
+    "chunk": "Plant: Squash (Cucurbita pepo). Family: Cucurbit.\nCompanions: Corn, Beans, Radishes, Marigold, Nasturtium, Peas.\nAntagonists: Potatoes, Broccoli, Cabbage.\nWhy companions help: Large leaves shade soil and suppress weeds; Three Sisters planting provides mutual benefits; Nasturtiums trap aphids\nWhy avoid antagonists: Potatoes compete for nutrients and share diseases; Brassicas compete for soil nutrients\nGrowing: Full sun, water High, spacing 36 inches, Heavy feeder.\nAttracts: Bees."
+  },
+  {
+    "plant": "Pepper",
+    "id": "Capsicum annuum",
+    "chunk": "Plant: Pepper (Capsicum annuum). Family: Nightshade.\nCompanions: Basil, Tomatoes, Carrots, Onions, Parsley, Spinach, Marigold.\nAntagonists: Fennel, Kohlrabi, Beans, Brassicas.\nWhy companions help: Basil repels aphids and spider mites; Carrots loosen soil; Onions deter pests; Marigolds repel nematodes\nWhy avoid antagonists: Fennel inhibits growth; Beans compete for nutrients; Kohlrabi stunts pepper growth\nGrowing: Full sun, water Medium, spacing 18 inches, Heavy feeder.\nAttracts: Bees."
+  },
+  {
+    "plant": "Onions",
+    "id": "Allium cepa",
+    "chunk": "Plant: Onions (Allium cepa). Family: Allium.\nCompanions: Carrots, Lettuce, Tomatoes, Beets, Cabbage, Strawberries, Peppers.\nAntagonists: Beans, Peas, Asparagus, Sage.\nWhy companions help: Strong scent deters many pests; Carrots and onions mask each other's scent from pests; Repels carrot fly and aphids\nWhy avoid antagonists: Inhibits growth of beans and peas; Competes with asparagus\nGrowing: Full sun, water Low, spacing 4 inches, Light feeder.\nPests deterred: Carrot fly, Aphids, Japanese beetles, Rabbits."
+  },
+  {
+    "plant": "Garlic",
+    "id": "Allium sativum",
+    "chunk": "Plant: Garlic (Allium sativum). Family: Allium.\nCompanions: Tomatoes, Peppers, Cabbage, Carrots, Fruit trees, Roses.\nAntagonists: Beans, Peas, Asparagus, Strawberries.\nWhy companions help: Deters aphids, Japanese beetles, spider mites; Strong scent masks other plants from pests; Natural fungicide properties\nWhy avoid antagonists: Inhibits growth of legumes; May affect strawberry growth\nGrowing: Full sun, water Low, spacing 6 inches, Light feeder.\nPests deterred: Aphids, Japanese beetles, Spider mites, Fungal diseases."
+  },
+  {
+    "plant": "Lettuce",
+    "id": "Lactuca sativa",
+    "chunk": "Plant: Lettuce (Lactuca sativa). Family: Aster.\nCompanions: Carrots, Radishes, Strawberries, Chives, Onions, Garlic, Beans.\nAntagonists: Celery.\nWhy companions help: Shallow roots don't compete with deeper-rooted plants; Provides ground cover; Grows well in shade of taller plants\nWhy avoid antagonists: Celery may inhibit lettuce growth\nGrowing: Partial sun, water Medium, spacing 6 inches, Light feeder."
+  },
+  {
+    "plant": "Cucumber",
+    "id": "Cucumis sativus",
+    "chunk": "Plant: Cucumber (Cucumis sativus). Family: Cucurbit.\nCompanions: Beans, Corn, Peas, Radishes, Sunflowers, Lettuce, Dill.\nAntagonists: Potatoes, Sage, Mint, Melons.\nWhy companions help: Beans and peas provide nitrogen; Corn provides trellis; Radishes deter cucumber beetles; Sunflowers attract pollinators\nWhy avoid antagonists: Potatoes compete and share diseases; Aromatic herbs may inhibit growth; Melons cross-pollinate\nGrowing: Full sun, water High, spacing 12 inches, Heavy feeder.\nAttracts: Bees."
+  },
+  {
+    "plant": "Peas",
+    "id": "Pisum sativum",
+    "chunk": "Plant: Peas (Pisum sativum). Family: Legume.\nCompanions: Carrots, Turnips, Radishes, Cucumber, Corn, Beans, Spinach.\nAntagonists: Onions, Garlic, Chives, Leeks.\nWhy companions help: Fixes nitrogen in soil; Provides shade for cool-season crops; Good trellis partner with corn\nWhy avoid antagonists: Alliums inhibit pea growth\nGrowing: Full sun, water Medium, spacing 3 inches, Nitrogen fixer.\nAttracts: Bees."
+  },
+  {
+    "plant": "Broccoli",
+    "id": "Brassica oleracea var. italica",
+    "chunk": "Plant: Broccoli (Brassica oleracea var. italica). Family: Brassica.\nCompanions: Beets, Celery, Onions, Oregano, Potatoes, Chamomile, Dill, Rosemary.\nAntagonists: Tomatoes, Peppers, Strawberries, Beans, Squash.\nWhy companions help: Celery repels cabbage white butterfly; Aromatic herbs deter pests; Onions mask brassica scent\nWhy avoid antagonists: Tomatoes and peppers compete for calcium; Strawberries inhibit brassica growth; Heavy feeders compete\nGrowing: Full sun, water High, spacing 18 inches, Heavy feeder."
+  },
+  {
+    "plant": "Cabbage",
+    "id": "Brassica oleracea var. capitata",
+    "chunk": "Plant: Cabbage (Brassica oleracea var. capitata). Family: Brassica.\nCompanions: Onions, Celery, Dill, Chamomile, Beets, Potatoes, Garlic.\nAntagonists: Tomatoes, Peppers, Strawberries, Beans, Grapes.\nWhy companions help: Aromatic herbs deter cabbage moths and loopers; Onions repel many pests; Chamomile improves flavor\nWhy avoid antagonists: Tomatoes and cabbage compete for nutrients; Strawberries inhibit growth; Beans compete\nGrowing: Full sun, water High, spacing 18 inches, Heavy feeder."
+  },
+  {
+    "plant": "Spinach",
+    "id": "Spinacia oleracea",
+    "chunk": "Plant: Spinach (Spinacia oleracea). Family: Amaranth.\nCompanions: Strawberries, Beans, Peas, Cabbage, Radishes, Onions, Cauliflower.\nAntagonists: Potatoes.\nWhy companions help: Provides ground cover and shades soil; Grows well in shade of taller plants; Legumes provide nitrogen\nWhy avoid antagonists: Potatoes may inhibit spinach growth\nGrowing: Partial sun, water Medium, spacing 6 inches, Light feeder."
+  },
+  {
+    "plant": "Radishes",
+    "id": "Raphanus sativus",
+    "chunk": "Plant: Radishes (Raphanus sativus). Family: Brassica.\nCompanions: Lettuce, Peas, Nasturtium, Cucumber, Squash, Beans, Carrots.\nAntagonists: Hyssop, Grapes.\nWhy companions help: Fast-growing trap crop for flea beetles; Loosens soil for root vegetables; Marks slow-germinating seeds\nWhy avoid antagonists: Hyssop inhibits radish growth\nGrowing: Full sun, water Medium, spacing 2 inches, Light feeder.\nPests deterred: Cucumber beetles."
+  },
+  {
+    "plant": "Zucchini",
+    "id": "Cucurbita pepo var. cylindrica",
+    "chunk": "Plant: Zucchini (Cucurbita pepo var. cylindrica). Family: Cucurbit.\nCompanions: Corn, Beans, Nasturtium, Radishes, Marigold, Peas.\nAntagonists: Potatoes, Pumpkins, Other squash varieties.\nWhy companions help: Large leaves shade soil and suppress weeds; Corn provides windbreak; Beans fix nitrogen\nWhy avoid antagonists: Potatoes share diseases; Cross-pollinates with other squash varieties\nGrowing: Full sun, water High, spacing 36 inches, Heavy feeder.\nAttracts: Bees."
+  },
+  {
+    "plant": "Marigold",
+    "id": "Tagetes erecta",
+    "chunk": "Plant: Marigold (Tagetes erecta). Family: Aster.\nCompanions: Tomatoes, Peppers, Cucumbers, Squash, Melons, Potatoes, Zucchini.\nAntagonists: Beans, Cabbage.\nWhy companions help: Repels nematodes, aphids, whiteflies, and many pests; Attracts beneficial insects; Root secretions deter harmful soil organisms\nWhy avoid antagonists: May inhibit bean growth; Some brassicas don't benefit\nGrowing: Full sun, water Low, spacing 8 inches, Light feeder.\nPests deterred: Nematodes, Aphids, Whiteflies, Tomato hornworm, Cabbage moths.\nAttracts: Bees, Butterflies, Ladybugs, Hoverflies."
+  }
+]
