@@ -21,9 +21,14 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
+
+# Ensure Unicode output works on Windows terminals (e.g. PowerShell with cp1252).
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -54,8 +59,9 @@ def get_api_key(name: str) -> str:
     return value
 
 
-DIR = Path(__file__).resolve().parent
+DIR = Path(__file__).resolve().parent 
 PLANTS_JSON = DIR / "plants.json"
+WIKI_JSON = DIR / "plantData_wikipedia.json"
 EMBEDDINGS_NPY = DIR / "companion_embeddings.npy"
 META_JSON = DIR / "companion_meta.json"
 
